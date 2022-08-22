@@ -1,0 +1,79 @@
+* {
+    text-decoration: none;
+    font-family: monospace;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding-left: 20px;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+header h1 a {
+    color: brown;
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+header nav ul a {
+    padding: 10px;
+    color:brown;
+}
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.main-img-size {
+    width: auto;
+    height: 400px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.applications {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-img-size{
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.contact-section{
+    display:flex;
+    background-color: brown;
+    color:beige;
+    height: 100px;
+    width: auto;
+    padding-left: 20px;
+}
+
+.contact-list{
+    padding: 300px auto
+}
